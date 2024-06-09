@@ -16,10 +16,20 @@ export default function Home() {
           </div>
           <div className="linkButtons">
             <div className="mb-5">
-              <Link href={"/"} className="bg-white text-blue-500 py-2 px-4 rounded-md ">Login</Link>
+              <Link
+                href={"/login"}
+                className="bg-white text-blue-500 py-2 px-4 rounded-md "
+              >
+                Login
+              </Link>
             </div>
             <div>
-              <Link href={"registration"} className="bg-white text-blue-500 py-2 px-4 rounded-md ">Register</Link>
+              <Link
+                href={"registration"}
+                className="bg-white text-blue-500 py-2 px-4 rounded-md "
+              >
+                Register
+              </Link>
             </div>
           </div>
         </div>
